@@ -1,0 +1,72 @@
+/* Main application background */
+.stApp {
+    background-color: #F0F7F7;
+    color: #102A43;
+}
+
+/* Main content area */
+.block-container {
+    max-width: 1150px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #102A43 !important;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+}
+
+/* Paragraphs */
+p, label {
+    color: #334155;
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #16A6A1;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 0.65rem 1.2rem;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.stButton > button:hover {
+    background-color: #102A43;
+    color: white;
+    border: none;
+}
+
+/* Upload area */
+[data-testid="stFileUploader"] {
+    background-color: #FFFFFF;
+    border: 2px dashed #16A6A1;
+    border-radius: 14px;
+    padding: 15px;
+}
+
+/* Cards */
+div[data-testid="stMetric"] {
+    background-color: #FFFFFF;
+    border: 1px solid #D7E8E8;
+    border-radius: 12px;
+    padding: 18px;
+}
+
+/* Progress bars */
+.stProgress > div > div > div > div {
+    background-color: #16A6A1;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #E1F0EF;
+}
+
+/* Divider */
+hr {
+    border-color: #C7DEDE;
+}
